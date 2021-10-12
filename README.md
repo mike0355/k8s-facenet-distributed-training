@@ -1,1 +1,1 @@
-# k8s-facenet-distributed-training
+# Distributed training with Kubeflow pipeline
