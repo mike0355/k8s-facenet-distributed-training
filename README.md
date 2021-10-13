@@ -13,3 +13,5 @@
  
 *  Use Kubeflow Pipeline and Tensorflow CPU to train a distributed model on the cluster .  
 *  Use flask server and web UI to implement model serving .
+# The FaceNet and the Model training
+  In this tutorial, a method called FaceNet is used to implement a face recognition on K8s.
