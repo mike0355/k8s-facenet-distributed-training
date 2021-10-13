@@ -19,9 +19,9 @@
     
  
 
-<div align=center><img width="500" height="250" src="https://user-images.githubusercontent.com/51089749/137070450-d4b9defb-baaa-431b-b5cf-ca79a9e825d5.png" alt="Figure1. Example of triplet set."/></div>
+<div align=center><img width="500" height="250" src="https://user-images.githubusercontent.com/51089749/137070450-d4b9defb-baaa-431b-b5cf-ca79a9e825d5.png"/></div>
 <p align ="center"> Figure1. Example of triplet set. </p>
 <br>
-<br>
+
 <div align=center><img width="400" height="250" src="https://user-images.githubusercontent.com/51089749/137068619-d1d708d8-6beb-4b20-9e97-56be1ee1a5ea.png"/></div>
 
