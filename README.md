@@ -22,5 +22,5 @@
  
     
   
-![image](https://user-images.githubusercontent.com/51089749/137068619-d1d708d8-6beb-4b20-9e97-56be1ee1a5ea.png)-9ef6b0492c8c.png)
+![image](https://user-images.githubusercontent.com/51089749/137068619-d1d708d8-6beb-4b20-9e97-56be1ee1a5ea.png)
 
