@@ -18,7 +18,7 @@
   Before training our data, three components are selected as triplets, as shown in **Figure1**, which include an anchor, a positive and a negative from the dataset. Since the model is trained in the Euclidean space, we assume that the distance between two points directly corresponds to the similarity between the two face images. As shown in **Figure2**. after training the model,the distance between the anchor and the positive will be reduced, and that between the anchor and the negative will be increased . 
     
 <center>  
-![](https://user-images.githubusercontent.com/51089749/137067151-cf04c6cf-4597-477b-b48d-9948c1e4ff99.png)  
+![image](https://user-images.githubusercontent.com/51089749/137067151-cf04c6cf-4597-477b-b48d-9948c1e4ff99.png)  
 </center>    
     
   
