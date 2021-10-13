@@ -24,7 +24,7 @@
   
 <br>
 
-<div align=center><img width="500" height="250" src="https://user-images.githubusercontent.com/51089749/137070929-432c6ae2-8905-421b-88cd-4f045f5002fb.png"/></div>
+<div align=center><img width="700" height="250" src="https://user-images.githubusercontent.com/51089749/137070929-432c6ae2-8905-421b-88cd-4f045f5002fb.png"/></div>
 <p align ="center"> Figure2. Distance results before and after training.</p>
   
 # Test Results
