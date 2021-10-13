@@ -20,11 +20,11 @@
  
 
 <div align=center><img width="700" height="250" src="https://user-images.githubusercontent.com/51089749/137072979-88109170-db18-4803-8422-1673a0887802.png"/></div>
-<p align ="center"> <b>Figure1.</> Example of triplet set. </p>
+<p align ="center"> <b>Figure1. Example of triplet set.</b></p>
   
 <br>
 
 <div align=center><img width="600" height="250" src="https://user-images.githubusercontent.com/51089749/137073084-f5c87f57-5eaa-4f83-89c6-cd97408f8a12.png"/></div>
-<p align ="center"> Figure2. Distance results before and after training.</p>
+<p align ="center"><b> Figure2. Distance results before and after training.</b></p>
   
 # Test Results
