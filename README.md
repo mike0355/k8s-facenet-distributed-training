@@ -21,5 +21,5 @@
 
 <div align=center><src="https://user-images.githubusercontent.com/51089749/137068925-90ea8028-0f20-410b-9766-978255216863.png"/></div>
 
-![image](https://user-images.githubusercontent.com/51089749/137068619-d1d708d8-6beb-4b20-9e97-56be1ee1a5ea.png)
+<div align=center><src="https://user-images.githubusercontent.com/51089749/137068619-d1d708d8-6beb-4b20-9e97-56be1ee1a5ea.png"/></div>
 
