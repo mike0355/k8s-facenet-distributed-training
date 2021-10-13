@@ -19,9 +19,9 @@
 
   
   
-<div style="text-align:center">
+<center>
   <img src="https://user-images.githubusercontent.com/51089749/137065098-a372fccd-c6e9-4136-bd6b-b4b15222691b.png"/>
-</div>
+</center>
   
   
   
