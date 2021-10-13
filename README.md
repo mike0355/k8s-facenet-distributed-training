@@ -19,7 +19,7 @@
     
  
 
-<div align=center><img width="700" height="350" src="https://user-images.githubusercontent.com/51089749/137072979-88109170-db18-4803-8422-1673a0887802.png"/></div>
+<div align=center><img width="700" height="250" src="https://user-images.githubusercontent.com/51089749/137072979-88109170-db18-4803-8422-1673a0887802.png"/></div>
 <p align ="center"> Figure1. Example of triplet set. </p>
   
 <br>
