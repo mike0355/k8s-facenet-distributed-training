@@ -28,5 +28,5 @@
 <p align ="center"><b> Figure2. Distance results before and after training.</b></p>
   
 # Test Results
-<font size=4> At the end of the experiment, we use the flask server and web interface to implement the model deployment. The user can select the face image for similarity calculation from the test images. After clicking the prediction button, the input image will be in our image database. The similarity of the images is calculated, and the top three ranks are sorted. Each set of ranks contains the distance between the images and the name of the recognized person.
-
+<font size=4> At the end of the training, we use the flask server and web interface to implement the model deployment. User can select the face image for similarity calculation from the test images. After clicking the "predict" button, the input image will be in our image database. The similarity of the images is calculated, and the top three ranks are sorted. Each set of ranks contains the distance between the images and the name of the recognized person.
+<div align=center><font size=4>**You can use the test image in test-image as the input image.**</div>
