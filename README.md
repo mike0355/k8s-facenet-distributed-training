@@ -34,4 +34,4 @@
 <p align ="center"> <b>Figure4. Example test result.</b></p>
 
 ## Steps:
-[Create a new cluster and deploy the Kubeflow on local Kubernetse.](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1_create_cluster_and_deploy_kubeflow.md)
+[Create a new cluster and deploy the Kubeflow on local Kubernetse.](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1_Local_K8s_and_Kubeflow_setup.md)
