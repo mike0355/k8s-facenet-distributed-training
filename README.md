@@ -41,4 +41,5 @@
 3. [Setup storageclass and PVC](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step3_Storageclass_PVC_setting.md)
 
 4. [Distributed training on Kubeflow pipeline](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step4_Distributed_training.md)
- 
+
+5. [M](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step5_serving.md)
