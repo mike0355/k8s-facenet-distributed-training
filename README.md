@@ -28,10 +28,10 @@
 <p align ="center"><b> Figure2. Distance results before and after training.</b></p>
   
 ## Test Results
-<font size=4> At the end of the training, we use the flask server and web interface to implement the model deployment. As shown in **Figure4**, user can select the face image for similarity calculation from the test images. After clicking the "predict" button, the input image will be in our image database. The similarity of the images is calculated, and the top three ranks are sorted. Each set of ranks contains the distance between the images and the name of the recognized person.
+<font size=4> At the end of the training, we use the flask server and web interface to implement the model deployment. As shown in **Figure3**, user can select the face image for similarity calculation from the test images. After clicking the "predict" button, the input image will be in our image database. The similarity of the images is calculated, and the top three ranks are sorted. Each set of ranks contains the distance between the images and the name of the recognized person.
 **You can use the test image in test-image folder as the input image.**  
 <div align=center><img width="600" height="350" src="https://user-images.githubusercontent.com/51089749/137261141-ec762780-c1db-4b41-8e25-3de9c58b4e2a.png"/></div>
-<p align ="center"> <b>Figure4. Example test result.</b></p>
+<p align ="center"> <b>Figure3. Example test result.</b></p>
 
 ## Steps:
 1. [Create a new cluster and deploy the Kubeflow on local Kubernetse.](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1_Local_K8s_and_Kubeflow_setup.md)
