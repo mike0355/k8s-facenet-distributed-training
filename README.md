@@ -34,4 +34,4 @@
 <p align ="center"> <b>Figure4. Example test result.</b></p>
 
 ## Steps:
-[here](k8s-facenet-distributed-training/step1.md)
+[here](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1.md)
