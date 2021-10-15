@@ -10,9 +10,9 @@
 *  Create a new cluster and deploy the Kubeflow on Kubernetes .
 *  Install and setup NFS(Network File System) to mount your volume . 
 *  Deploy storageclass and pvc to implement dynamic binding .
- 
 *  Use Kubeflow Pipeline and Tensorflow CPU to train a distributed model on the cluster .  
 *  Use flask server and web UI to implement model serving .
+  
 ## The FaceNet and the Model training
   In this tutorial, a algorithm called FaceNet is used to implement a face recognition on K8s. FaceNet presents a algorithm to train the features of Euclidean as a similarity between two face images, and output the distance as the similarity between two face images. In addition, we use triplet loss function to optimized the model.  
   Before training our data, three components are selected as triplets, as shown in **Figure1**, which include an anchor, a positive and a negative from the dataset. Since the model is trained in the Euclidean space, we assume that the distance between two points directly corresponds to the similarity between the two face images. As shown in **Figure2**. after training the model,the distance between the anchor and the positive will be reduced, and that between the anchor and the negative will be increased . 
@@ -34,4 +34,4 @@
 <p align ="center"> <b>Figure4. Example test result.</b></p>
 
 ## Steps:
-[here](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1.md)
+[Create a new cluster and deploy the Kubeflow on local Kubernetse.](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1.md)
