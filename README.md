@@ -32,4 +32,4 @@
 **You can use the test image in test-image folder as the input image.**  
 <div align=center><img width="600" height="350" src="https://user-images.githubusercontent.com/51089749/137261141-ec762780-c1db-4b41-8e25-3de9c58b4e2a.png"/></div>
 <p align ="center"> <b>Figure4. Example test result.</b></p>
-
+# Steps:
