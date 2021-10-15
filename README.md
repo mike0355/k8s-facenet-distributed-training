@@ -37,3 +37,5 @@
 1. [Create a new cluster and deploy the Kubeflow on local Kubernetse.](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1_Local_K8s_and_Kubeflow_setup.md)
 
 2. [Install and setup NFS](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/Step2_NFS_setup.md)
+
+3. [Setup storageclass and PVC](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step3_Storageclass_PVC_setting.md)
