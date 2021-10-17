@@ -40,7 +40,7 @@
 ```commandline
  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 ```
-Update packages and install kubeadm、 kubelet、 kubectl.
+Update packages and install kubeadm, kubelet, kubectl.
 ```commandline
  sudo apt-get update
  sudo apt-get install -y kubelet kubeadm kubectl 
