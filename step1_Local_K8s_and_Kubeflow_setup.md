@@ -69,4 +69,12 @@ After deploy master node, and then you need to deploy the pod-network to the clu
 ```commandline
   kubectl apply -fhttps://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
-Finally, you can use the **Figure.2** redframe's command to join any number of worker nodes by running the following on each as root. At this step, your multi nodes cluster is established.
+Finally, use the **Figure.2** redframe's command to join any number of worker nodes by running the following on each as root and your multi nodes cluster will established,as shown in **Figure.3** you can run the following commands to check your multi nodes cluster.
+
+```commandline
+ kubectl get nodes
+```
+<div align=center><img width="550" height="150" src="https://user-images.githubusercontent.com/51089749/137615034-0a573303-f79b-44c4-a2c6-4a6b2c838cf5.png"/></div>
+<p align ="center"> <b>Figure3. Example of cluster.</b></p>
+
+
