@@ -1,2 +1,3 @@
-# Step1: 
-This is just a beginning.
+# Create a new cluster and deploy KubeFlow on Kubernetes
+
+
