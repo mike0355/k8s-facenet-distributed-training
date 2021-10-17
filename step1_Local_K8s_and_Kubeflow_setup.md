@@ -65,7 +65,7 @@ Create .kube folder, this setting is to allow general users to use kubectl.
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
-After deploy master node, and then you need to deploy the pod-network to the cluster.
+After deploy master node, and then you need to deploy the pod network to the cluster.
 ```commandline
   kubectl apply -fhttps://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
