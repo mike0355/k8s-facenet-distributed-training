@@ -10,7 +10,7 @@
 <div align=center><img width="650" height="250" src="https://user-images.githubusercontent.com/51089749/137610994-d6b18ae9-e156-49c3-af0b-1ec9f2aed22e.png"/></div>
 <p align ="center"> <b>Figure1. Example of specified path.</b></p>
 
-## Install docker
+## Install Docker
 <font size=4>You can run this command to install docker.</font>
 ```commandline
   sudo apt install docker.io -y
@@ -72,9 +72,26 @@ After deploy master node, and then you need to deploy the pod-network to the clu
 Finally, use the **Figure.2** redframe's command to join any number of worker nodes by running the following on each as root and your multi nodes cluster will established,as shown in **Figure.3** you can run the following commands to check your multi nodes cluster.
 
 ```commandline
- kubectl get nodes
+  kubectl get nodes
 ```
 <div align=center><img width="550" height="150" src="https://user-images.githubusercontent.com/51089749/137615034-0a573303-f79b-44c4-a2c6-4a6b2c838cf5.png"/></div>
 <p align ="center"> <b>Figure3. Example of cluster.</b></p>
 
+# Deploy Kubeflow
+At the first, you need to create the kubeflow folder under the root directory, as shown in **Figure.4**, please make sure the folder where you want to install kubeflow is empty.
+<div align=center><img width="650" height="100" src="https://user-images.githubusercontent.com/51089749/137615458-19836287-1e89-48ae-8e37-7815e2e39494.png"/></div>
+<p align ="center"> <b>Figure4. Example of create kubeflow folder</b></p>
+  
+Download kfctl data into your kubeflow folder, you can go to the [kfctl releases](https://github.com/kubeflow/kfctl/releases) to download kfctl data, shown as **Figure.5**
+<div align=center><img width="750" height="150" src="https://user-images.githubusercontent.com/51089749/137615927-9baf2b2f-0352-4fcb-a972-9c0c7d14f0b8.png"/></div>
+<p align ="center"> <b>Figure5. Example of specified path.</b></p>
 
+And then export your kfctl folder path and Kubeflow yaml data.
+```commandline
+   export PATH=$PATH:"<path-to-kfctl>"
+   export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.2-branch/kfdef/kfctl_k8s_istio.v1.2.0.yaml"
+```
+Start to deploy Kubeflow.
+```commandline
+   kfctl apply -V -f ${CONFIG_URI}
+```
