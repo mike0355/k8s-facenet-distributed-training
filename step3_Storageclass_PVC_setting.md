@@ -49,4 +49,4 @@ Most of the settings are completed, you can deploy our test-claim to confirm whe
 
 <div align=center><img width="850" height=200" src="https://user-images.githubusercontent.com/51089749/137693565-39f139c6-9d41-4e28-b9d4-b4a0f2301874.png"/></div>
 <p align ="center"> <b>Figure6. Example of test-claim.</b></p>
-[kfctl releases](https://github.com/kubeflow/kfctl/releases)
+
