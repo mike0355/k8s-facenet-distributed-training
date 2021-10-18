@@ -67,7 +67,7 @@ Create .kube folder, this setting is to allow general users to use kubectl.
 ```
 After deploy master node, and then you need to deploy the pod network to the cluster.
 ```commandline
-  kubectl apply -fhttps://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 Finally, use the **Figure.2** redframe's command to join any number of worker nodes by running the following on each as root and your multi nodes cluster will established,as shown in **Figure.3** you can run the following commands to check your multi nodes cluster.
 
