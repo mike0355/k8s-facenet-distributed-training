@@ -21,7 +21,28 @@ On the server and client, you need to create the mount directory and give permis
  mkdir  –p  /mnt/ (your mount directory folder name on the client)
  chmod  -R 777 /mnt/ (your mount directory folder name on the client)
 ```
-Add the mount directory location and IP address of the client computer and server under /etc/exports path, as shown in **Figure.1**.
-
-<div align=center><img width="650" height="250" src="https://user-images.githubusercontent.com/51089749/137679021-7b69d5c4-b504-42c6-94b5-e4257c7959ca.png"/></div>
+Add the mount directory location and IP address of the client computer and server under **/etc/exports** path, as shown in **Figure.1**.
+```commandline
+ cd /etc
+ sudo gedit exports
+```
+<div align=center><img width="650" height="150" src="https://user-images.githubusercontent.com/51089749/137679487-f55ff7a5-4171-474c-b278-812218f32679.png"/></div>
 <p align ="center"> <b>Figure1. Example of export data.</b></p>
+
+Finally, turn on your NFS server and check your NFS system status, as shown in **Figure.2**, if the NFS server displays a green light, it means it has successfully started.
+
+```commandline
+sudo service nfs-server start
+sudo service nfs-server status
+```
+<div align=center><img width="650" height="150" src="https://user-images.githubusercontent.com/51089749/137680172-765eb902-05c4-4e04-84f8-1e7e17ea410c.png"/></div>
+<p align ="center"> <b>Figure2. Example of NFS server status.</b></p>
+
+After the previous settings, run the following command and you can mount files from the server on the client side, as shwon in **Figure.3**.
+```commandline
+ sudo mount -t nfs (NFS Server IP):/mnt/(your mount directory folder name on the server)  /mnt/(your mount directory folder name on the client) -o nolock
+```
+<div align=center><img width="650" height="250" src="https://user-images.githubusercontent.com/51089749/137680883-299a1daf-e52b-4eed-95a8-46511b6fd826.png"/></div>
+<p align ="center"> <b>Figure3. Example of show mount directory.</b></p>
+
+
