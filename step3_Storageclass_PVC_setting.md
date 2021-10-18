@@ -6,5 +6,21 @@ Deploy NFS provisioner.yaml on the Kubernetes. We already provided NFS provision
 <p align ="center"> <b>Figure1. Example of provisioner.</b></p>
   
   
-After edit NFS provisioner, following this command to deploy NFS provisioner.
-
+After edit NFS provisioner, following this command to deploy and check your NFS provisioner, as shown in **Figure.2**
+```commandline
+  //deploy
+  kubectl create -f (your YAML file name)
+  
+  // check your file
+  kubectl get deployment
+```
+<div align=center><img width="850" height="100" src="https://user-images.githubusercontent.com/51089749/137687897-69860a6a-74ac-4daf-949a-8ab54d478ad3.png"/></div>
+<p align ="center"> <b>Figure2. Example of deploy porvisioner.</b></p>
+  
+Create storageclass.yaml, we already provided storageclass.yaml file so you no need to rewrite a new one, but if you want to modify your storageclass name, you can modify at the position of the red box in **Figure.3**
+<div align=center><img width="850" height="200" src="https://user-images.githubusercontent.com/51089749/137688313-4aed0b1b-b46c-450e-bc14-fcceb552a130.png"/></div>
+<p align ="center"> <b>Figure3. Example of storageclass.</b></p>
+  
+After edit storageclass, following this command to deploy and check your storageclass, as shown in **Figure.4**
+<div align=center><img width="850" height="100" src="https://user-images.githubusercontent.com/51089749/137689385-1de834bb-5e4d-4acc-8115-a0287f151df9.png"/></div>
+<p align ="center"> <b>Figure4. Example of deploy storageclass.</b></p>
