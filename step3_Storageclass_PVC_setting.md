@@ -24,3 +24,5 @@ Create storageclass.yaml, we already provided storageclass.yaml file so you no n
 After edit storageclass, following this command to deploy and check your storageclass, as shown in **Figure.4**
 <div align=center><img width="850" height="100" src="https://user-images.githubusercontent.com/51089749/137689385-1de834bb-5e4d-4acc-8115-a0287f151df9.png"/></div>
 <p align ="center"> <b>Figure4. Example of deploy storageclass.</b></p>
+
+Add NFS-client-provisioner as the authority source for NFS provisioner.,  we already provided serviceaccount.yaml file so you no need to rewrite a new one. In Kubernetes, we use Role,RoleBinding,ClusterRole,ClusterRoleBinding is used to give the service account sufficient permissions to handle the work related to StorageClass and PersistentVolumeClaim (PVC).
