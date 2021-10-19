@@ -1,4 +1,4 @@
-## Storagecalss and PVC.
+## StorageClass and PVC.
 In this part, we need to use storageclass to implement dynamic binding. The definition of dynamic binding is to realize the action of PVC binding without editing PV by yourself, which is more efficient than editing PV to do static binding.
   
 Deploy NFS provisioner.yaml on the Kubernetes. We already provided NFS [provisioner](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/NFS-setting/deployment.yaml) file, so you only need to modify NFS server and NFS client's IP and mount directory folder location, as shown in **Figure.1**
