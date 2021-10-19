@@ -106,9 +106,26 @@ At this part we will explain the function of each pods.
 * Model prediction: After training, the training program will output the model weight and at this pod need to use this model weight to implement model prediction.(Due to the huge amount of data, this step will take a lot of time.)
 * Serving: We use flask and html to build a Web UI, user can select image in our [test-image](https://github.com/mike0355/k8s-facenet-distributed-training/tree/main/test-image) folder to upload and implement this application.
 
+### Pod status
+As shown in **Figure.10** you can run the following commands to check your pod status.
+```commandline
+  kubectl get pods --all-namespaces -o wide
+```
+<div align=center><img width="900" height="100" src="https://user-images.githubusercontent.com/51089749/137872081-491235c7-5511-47b1-a3e1-f25ceb0ad87d.png"/></div>
+<p align ="center"> <b>Figure10. Example of pod status.</b></p>
 
-
-
-
+### Port forward
+Run the following command and you can turn on your browser.
+```commandline
+  kubectl port-forward pod/<your pod name> -n kubeflow-user-example-com 8987:8987
+```
+At address bar you need to input uri:
+```commandline
+  //uri
+  localhost:8987/upload
+```
+And the finally, as shown in **Figure.11** , you can enter the web UI page to implement model application.
+<div align=center><img width="650" height="450" src="https://user-images.githubusercontent.com/51089749/137875744-ea8f89f0-62ce-4bea-9f4e-d93963d8676d.png"/></div>
+<p align ="center"> <b>Figure11. Example of test result.</b></p>
 
 
