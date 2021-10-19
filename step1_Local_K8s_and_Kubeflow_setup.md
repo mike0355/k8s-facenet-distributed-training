@@ -95,3 +95,4 @@ Start to deploy Kubeflow.
 ```commandline
    kfctl apply -V -f ${CONFIG_URI}
 ```
+Next Step: [Install and setup NFS](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step2_NFS_setup.md)
