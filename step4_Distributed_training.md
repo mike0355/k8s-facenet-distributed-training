@@ -6,6 +6,8 @@ Before running the training program, we need to make some settings, include:
 
 * Adding tags to each node.
 * Deploying service YAML file.
+* Add label name to your pod on the pipeline.
+* Use add_node_selector_constraint to specify pod deployed under a specific node.
 * Adding TF_config environment variables to the code.
 
 ### Adding tags to each node 
@@ -21,7 +23,7 @@ You run following commands to apply your node. The added screen example can show
 <div align=center><img width="1000" height="100" src="https://user-images.githubusercontent.com/51089749/137849536-0bd6ad8f-f143-4eb2-8ad4-643f42cb225b.png"/></div>
 <p align ="center"> <b>Figure1. Example added tags.</b></p>
 
-### Deploying service YAML file.
+### Deploying service YAML file
 When performing distributed training, worker and other workers must use the network to communicate with each other, so the pod's external port must be opened and connected to the outside through the service.
 We have a [service YAML](https://github.com/mike0355/k8s-facenet-distributed-training/tree/main/pod-service) file that provides service, so you don’t need to rewrite a new file for deployment, as shown in **Figure.2** .
 
@@ -39,6 +41,12 @@ You can run following the commands to deploy and check your service YAML file, a
 <div align=center><img width="1000" height="50" src="https://user-images.githubusercontent.com/51089749/137852149-fc1f2273-c39e-4739-ad33-25e20cb8bd66.png"/></div>
 <p align ="center"> <b>Figure3. Example of check service.</b></p>
 
+### Add label name to your pod on the pipeline
+The purpose of adding the label name is that the Service file we deployed earlier can rely on the label name to open a port to a specific pod. We found the method to add the label name to a pod on the pipeline from the website of the [KubeFlow Pipeline SDK](https://kubeflow-pipelines.readthedocs.io/en/stable/source/kfp.dsl.html), as shown in **Figure.4** .
+
+<div align=center><img width="500" height="200" src="https://user-images.githubusercontent.com/51089749/137856365-c92e4e5e-29c8-4402-a83b-4b1e3cc5c767.png"/></div>
+<p align ="center"> <b>Figure4. Example added label name command.</b></p>
+However, the actual way to add to the pipeline is as shown in the **figure5**, we need to define the variabl
 
 
 
