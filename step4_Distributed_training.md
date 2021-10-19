@@ -128,4 +128,4 @@ And the finally, as shown in **Figure.11** , you can enter the web UI page to im
 <div align=center><img width="650" height="450" src="https://user-images.githubusercontent.com/51089749/137875744-ea8f89f0-62ce-4bea-9f4e-d93963d8676d.png"/></div>
 <p align ="center"> <b>Figure11. Example of test result.</b></p>
 
-
+Previous:  [Setup storageclass and PVC](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step3_Storageclass_PVC_setting.md)
