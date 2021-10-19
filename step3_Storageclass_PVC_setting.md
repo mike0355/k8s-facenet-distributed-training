@@ -50,3 +50,6 @@ Most of the settings are completed, you can deploy our [test-claim](https://gith
 <div align=center><img width="850" height=250" src="https://user-images.githubusercontent.com/51089749/137693565-39f139c6-9d41-4e28-b9d4-b4a0f2301874.png"/></div>
 <p align ="center"> <b>Figure6. Example of test-claim.</b></p>
 
+Previous: [Install and setup NFS](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step2_NFS_setup.md)
+  
+Next: [Distributed training on Kubeflow pipeline](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step4_Distributed_training.md)
