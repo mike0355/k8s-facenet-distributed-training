@@ -1,33 +1,33 @@
 # Create a new cluster on local Kubernetes
 
-<font size=4> In this section, we need to install Kubernetes and create a new cluster step by step.</font>
+In this section, we need to install Kubernetes and create a new cluster step by step.
 
 ## Create cluster and muilti nodes
-<font size=4> At the first, we need add ip address and user name of the master node and other nodes under the specified path, As shown in **Figure.1**</font>
+At the first, we need add IP address and user name of the master node and other nodes under the specified path, As shown in **Figure.1**
 ```commandline
-   cd /etc/hosts
+   cd /etc/hosts  
 ```
 <div align=center><img width="650" height="250" src="https://user-images.githubusercontent.com/51089749/137610994-d6b18ae9-e156-49c3-af0b-1ec9f2aed22e.png"/></div>
 <p align ="center"> <b>Figure1. Example of specified path.</b></p>
 
 ## Install Docker
-<font size=4>You can run this command to install docker.</font>
+You can run this command to install docker.
 ```commandline
   sudo apt install docker.io -y
 ```
-<font size=4>If you want to let your docker to start automatically when your computer is turned on, you can run the following command.</font>
+If you want to let your docker to start automatically when your computer is turned on, you can run the following command.
 ```commandline
   sudo systemctl start docker
   sudo systemctl enable docker
 ```
 ## Disable SWAP
-<font size=4>Run the following command to disable swap. </font>
+Run the following command to disable swap.
 ```commandline
   sudo swapon -s
   sudo swapoff -a
 ```
 ## Install kubeadm, kubelet and kubectl
- Now start to install the necessary packages for kubernetes.
+ Now start to install the necessary packages for Kubernetes.
 ```commandline
   sudo apt-get update
   sudo apt-get install -y apt-transport-https ca-certificates curl
@@ -86,7 +86,7 @@ Download kfctl data into your kubeflow folder, you can go to the [kfctl releases
 <div align=center><img width="750" height="150" src="https://user-images.githubusercontent.com/51089749/137615927-9baf2b2f-0352-4fcb-a972-9c0c7d14f0b8.png"/></div>
 <p align ="center"> <b>Figure5. Example of specified path.</b></p>
 
-And then export your kfctl folder path and Kubeflow yaml data.
+And then export your kfctl folder path and Kubeflow YAML data.
 ```commandline
    export PATH=$PATH:"<path-to-kfctl>"
    export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.2-branch/kfdef/kfctl_k8s_istio.v1.2.0.yaml"
