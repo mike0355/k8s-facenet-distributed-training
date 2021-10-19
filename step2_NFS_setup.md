@@ -45,4 +45,6 @@ After the previous settings, run the following command and you can mount files f
 <div align=center><img width="650" height="250" src="https://user-images.githubusercontent.com/51089749/137680883-299a1daf-e52b-4eed-95a8-46511b6fd826.png"/></div>
 <p align ="center"> <b>Figure3. Example of show mount directory.</b></p>
 
+Previous: [Create a new cluster and deploy the Kubeflow on local Kubernetes](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step1_Local_K8s_and_Kubeflow_setup.md)
+Next: [Setup storageclass and PVC](https://github.com/mike0355/k8s-facenet-distributed-training/blob/main/step3_Storageclass_PVC_setting.md)
 
