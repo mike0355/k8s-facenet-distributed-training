@@ -98,13 +98,13 @@ After the previous settings, the pipeline we built is as shown in the **Figure.9
 <p align ="center"> <b>Figure9. Example of pipeline.</b></p>
 
 At this part we will explain the function of each pods.
-* triplet-training-pvc: Provide a volume to save our dataset and model weight.
-* Load data: We load our data set and save this file into the pvc volume in the container.
-* Distributed training worker1: This pod will be deployed under node1 and implement distributed training.
-* Distributed training worker2: This pod will be deployed under node2 and implement distributed training.
-* Distributed training worker3: This pod will be deployed under node3 and implement distributed training.
-* Model prediction: After training, the training program will output the model weight and at this pod need to use this model weight to implement model prediction.(Due to the huge amount of data, this step will take a lot of time.)
-* Serving: We use flask and html to build a Web UI, user can select image in our [test-image](https://github.com/mike0355/k8s-facenet-distributed-training/tree/main/test-image) folder to upload and implement this application.
+* **triplet-training-pvc:** Provide a volume to save our dataset and model weight.
+* **Load data:** We load our dataset and save this file into the pvc volume in the container.
+* **Distributed training worker1:** This pod will be deployed under node1 and implement distributed training.
+* **Distributed training worker2:** This pod will be deployed under node2 and implement distributed training.
+* **Distributed training worker3:** This pod will be deployed under node3 and implement distributed training.
+* **Model prediction:** After training, the training program will output the model weight and at this pod need to use this model weight to implement model prediction.(Due to the huge amount of data, this step will take a lot of time.)
+* **Serving:** We use flask and html to build a Web UI, user can select image in our [test-image](https://github.com/mike0355/k8s-facenet-distributed-training/tree/main/test-image) folder to upload and implement this application.
 
 ### Pod status
 As shown in **Figure.10** you can run the following commands to check your pod status.
