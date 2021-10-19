@@ -38,7 +38,7 @@ sudo service nfs-server status
 <div align=center><img width="650" height="150" src="https://user-images.githubusercontent.com/51089749/137680172-765eb902-05c4-4e04-84f8-1e7e17ea410c.png"/></div>
 <p align ="center"> <b>Figure2. Example of NFS server status.</b></p>
 
-After the previous settings, run the following command and you can mount files from the server on the client side, as shwon in **Figure.3**.
+After the previous settings, run the following command and you can mount files from the server on the client side, as shown in **Figure.3**.
 ```commandline
  sudo mount -t nfs (NFS Server IP):/mnt/(your mount directory folder name on the server)  /mnt/(your mount directory folder name on the client) -o nolock
 ```
