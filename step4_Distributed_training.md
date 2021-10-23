@@ -83,7 +83,7 @@ After define label name and node selector, you can use Kubeflow SDK in your pod.
 This tutorial use the Tensorflow's MultiWorkerMirroredStrategy to implement distributedtraining, so we need to apply the environment variable of TF_config in each pod. We use os.environ to export the TF_config in environment variable.
 ```commandline
     //worker1
-    os.environ['TF_CONFIG'] = json.dumps({'cluster': {'worker': ["pipeline-worker-1:3000","pipeline-worker-2:3000","pipeline-worker-3:3000"]},'task': {'type': 'worker', 'index': 0}})
+        os.environ['TF_CONFIG'] = json.dumps({'cluster': {'worker': ["pipeline-worker-1:3000","pipeline-worker-2:3000","pipeline-worker-3:3000"]},'task': {'type': 'worker', 'index': 0}})
     
     //worker2
         os.environ['TF_CONFIG'] = json.dumps({'cluster': {'worker': ["pipeline-worker-1:3000","pipeline-worker-2:3000","pipeline-worker-3:3000"]},'task': {'type': 'worker', 'index': 1}})
