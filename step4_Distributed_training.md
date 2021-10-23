@@ -119,9 +119,9 @@ Run the following command and you can turn on your browser.
 ```commandline
   kubectl port-forward pod/<your pod name> -n kubeflow-user-example-com 8987:8987
 ```
-At address bar you need to input uri:
+At address bar you need to input url:
 ```commandline
-  //uri
+  //url
   localhost:8987/upload
 ```
 And the finally, as shown in **Figure.11** , you can enter the web UI page to implement model application.
